@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins-SemiBold.ttf');
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -13,4 +18,82 @@ body {
   width: 90%;
   max-width: 1080px;
   margin: 0 auto;
+}
+
+// heaader
+.menu-bar-pc {
+  width: 100%;
+  min-height: 4.25rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 0 2.25rem;
+  background: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 100;
+
+  .menu-principal-transparent,
+  .menu-principal-solid,
+  .social-media {
+    a {
+      display: inline-block;
+      padding: 0 0.625rem;
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 0.876rem;
+      letter-spacing: 0;
+      line-height: 1.5em;
+      transition: all 0.3s ease;
+
+      i {
+        font-size: 1rem;
+      }
+    }
+
+    a:last-child {
+      padding-right: 0;
+    }
+
+    a:hover {
+      color: #0089e0;
+    }
+  }
+}
+
+.fixed-header {
+  border-bottom: 0.0625rem solid rgba(204, 204, 204, 0.5);
+  background: #fff;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  transition: all 0.4s ease;
+  margin-top: -4.25rem;
+
+  .menu-principal-solid a,
+  .social-media a {
+    color: #444;
+
+    &:hover {
+      color: #0089e0;
+    }
+  }
+}
+
+.logo {
+  display: inline-block;
+  width: 3.125rem;
+
+  img {
+    width: 100%;
+    vertical-align: top;
+  }
+}
+
+// Mobile menu
+
+.menu-mobile {
+  display: none;
 }
