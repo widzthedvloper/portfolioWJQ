@@ -1,3 +1,5 @@
+// Note: Remenber to use variables for repeating measurements and properties
+
 @font-face {
   font-family: 'Poppins';
   src: url('/fonts/Poppins-SemiBold.ttf');
@@ -18,6 +20,24 @@ body {
   width: 90%;
   max-width: 1080px;
   margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 4px;
+
+  h2 {
+    color: #0089e0;
+    font-size: 3.125rem;
+    margin-bottom: 15px;
+    font-weight: 500;
+  }
+
+  p {
+    color: #979797;
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
 }
 
 // heaader
@@ -100,19 +120,19 @@ body {
 
 // ---------Main------
 
-// Banner principal
 
 .main {
   width: 100%;
   margin-top: -68px;
-  
+
+  // Banner principal
   .main-banner {
     width: 100%;
     position: relative;
 
     .banner {
       width: 100%;
-      height: 50vh;
+      height: 100vh;
       background-image: url('../img/banner.jpg');
       background-repeat: no-repeat;
       background-position: center;
@@ -155,6 +175,32 @@ body {
           background: #fff;
           color: #0089e0;
         }
+      }
+    }
+  }
+ 
+  // Project section
+  .projects {
+    background: #f3f4fa;
+    padding: 108px 0 54px;
+
+    .gallery {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+      padding-bottom: 34px;
+      border-bottom: 1px solid#ccc;
+
+      img {
+        width: 100%;
+        vertical-align: text-top;
+        margin-bottom: 2%;
+      }
+
+      .project {
+        width: 32%;
+        cursor: pointer;
+
       }
     }
   }
