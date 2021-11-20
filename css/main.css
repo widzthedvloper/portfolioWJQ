@@ -170,3 +170,28 @@ body {
   width: 32%;
   cursor: pointer;
 }
+.main .about {
+  background: #f3f4fa;
+}
+.main .about .container {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+.main .about .container .title {
+  width: 33.33%;
+  text-align: left;
+  padding: 2%;
+}
+.main .about .container .title h2 {
+  margin-bottom: 0;
+}
+.main .about .container .about-text {
+  width: 66.66%;
+  text-align: left;
+}
+.main .about .container .about-text p {
+  color: #979797;
+  font-size: 1rem;
+  font-weight: 400;
+}
