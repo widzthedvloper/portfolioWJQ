@@ -120,7 +120,6 @@ body {
 
 // ---------Main------
 
-
 .main {
   width: 100%;
   margin-top: -68px;
@@ -178,7 +177,7 @@ body {
       }
     }
   }
- 
+
   // Project section
   .projects {
     background: #f3f4fa;
@@ -204,11 +203,11 @@ body {
       }
     }
   }
-
+  // about secttion
   .about {
     background: #f3f4fa;
-    
-    .container{
+
+    .container {
       display: flex;
       flex-flow: row wrap;
       align-items: center;
@@ -233,6 +232,57 @@ body {
           font-weight: 400;
         }
       }
+    }
+  }
+
+  // slider section
+  .slider-container {
+    width: 100%;
+    overflow: hidden;
+    background: #f3f4fa;
+    padding: 54px 0;
+    position: relative;
+
+    .slider {
+      width: 400%;
+      display: flex;
+
+      .slide {
+        width: 15%;
+        max-width: 950px;
+        margin-right: 0.7%;
+        box-shadow: 0 20px 40px #aaa;
+
+        img {
+          width: 100%;
+          vertical-align: top;
+        }
+      }
+    }
+
+    .btn-prev,
+    .btn-next {
+      display: inline-block;
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+
+      i {
+        color: #fff;
+
+        &:hover {
+          color: #0089e0;
+        }
+      }
+    }
+
+    .btn-prev {
+      left: 2%;
+    }
+
+    .btn-next {
+      right: 2%;
     }
   }
 }

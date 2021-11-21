@@ -195,3 +195,46 @@ body {
   font-size: 1rem;
   font-weight: 400;
 }
+.main .slider-container {
+  width: 100%;
+  overflow: hidden;
+  background: #f3f4fa;
+  padding: 54px 0;
+  position: relative;
+}
+.main .slider-container .slider {
+  width: 400%;
+  display: flex;
+}
+.main .slider-container .slider .slide {
+  width: 15%;
+  max-width: 950px;
+  margin-right: 0.7%;
+  box-shadow: 0 20px 40px #aaa;
+}
+.main .slider-container .slider .slide img {
+  width: 100%;
+  vertical-align: top;
+}
+.main .slider-container .btn-prev,
+.main .slider-container .btn-next {
+  display: inline-block;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.main .slider-container .btn-prev i,
+.main .slider-container .btn-next i {
+  color: #fff;
+}
+.main .slider-container .btn-prev i:hover,
+.main .slider-container .btn-next i:hover {
+  color: #0089e0;
+}
+.main .slider-container .btn-prev {
+  left: 2%;
+}
+.main .slider-container .btn-next {
+  right: 2%;
+}
