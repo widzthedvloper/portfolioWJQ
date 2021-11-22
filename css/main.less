@@ -285,4 +285,70 @@ body {
       right: 2%;
     }
   }
+
+  // Our team
+  .our-team {
+    background: #f3f4fa;
+    padding-top: 54px;
+    padding-bottom: 108px;
+
+    /* stylelint-disable-next-line no-descending-specificity */
+    .title {
+      margin-bottom: 1.5rem;
+    }
+
+    .team {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+
+      .team-member {
+        background: #fff;
+        padding: 50px;
+        width: 100%;
+        max-width: 300px;
+        box-shadow: 0 9px 32px -1px rgba(0, 0, 0, 0.2);
+        text-align: center;
+
+        &:first-child,
+        &:last-child {
+          position: relative;
+          top: 20px;
+        }
+
+        .photo-card {
+          width: 50%;
+          max-width: 100px;
+          display: inline-block;
+          margin-bottom: 10px;
+
+          img {
+            width: 100%;
+            border-radius: 100%;
+          }
+        }
+
+        .text {
+          h3 {
+            font-size: 1.3rem;
+            font-weight: 500;
+            color: #0089e0;
+          }
+
+          h4 {
+            color: #979797;
+            font-size: 0.8rem;
+            font-weight: 400;
+            margin-bottom: 15px;
+          }
+
+          p {
+            color: #979797;
+            font-size: 0.8rem;
+            font-weight: 400;
+          }
+        }
+      }
+    }
+  }
 }

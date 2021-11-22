@@ -238,3 +238,56 @@ body {
 .main .slider-container .btn-next {
   right: 2%;
 }
+.main .our-team {
+  background: #f3f4fa;
+  padding-top: 54px;
+  padding-bottom: 108px;
+  /* stylelint-disable-next-line no-descending-specificity */
+}
+.main .our-team .title {
+  margin-bottom: 1.5rem;
+}
+.main .our-team .team {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.main .our-team .team .team-member {
+  background: #fff;
+  padding: 50px;
+  width: 100%;
+  max-width: 300px;
+  box-shadow: 0 9px 32px -1px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+.main .our-team .team .team-member:first-child,
+.main .our-team .team .team-member:last-child {
+  position: relative;
+  top: 20px;
+}
+.main .our-team .team .team-member .photo-card {
+  width: 50%;
+  max-width: 100px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.main .our-team .team .team-member .photo-card img {
+  width: 100%;
+  border-radius: 100%;
+}
+.main .our-team .team .team-member .text h3 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #0089e0;
+}
+.main .our-team .team .team-member .text h4 {
+  color: #979797;
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.main .our-team .team .team-member .text p {
+  color: #979797;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
