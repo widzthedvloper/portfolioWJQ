@@ -291,3 +291,53 @@ body {
   font-size: 0.8rem;
   font-weight: 400;
 }
+.main .extra-info {
+  background: #191919;
+  padding: 130px 0;
+}
+.main .extra-info .container {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+.main .extra-info .container .info {
+  width: 50%;
+}
+.main .extra-info .container .info .content-info {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+.main .extra-info .container .info .content-info:first-child {
+  margin-bottom: 30px;
+}
+.main .extra-info .container .info .content-info .icon-info {
+  width: 5%;
+}
+.main .extra-info .container .info .content-info .icon-info i {
+  font-size: 1.5rem;
+  color: #fff;
+}
+.main .extra-info .container .info .content-info .text-info {
+  margin-left: 3%;
+}
+.main .extra-info .container .info .content-info .text-info h4 {
+  font-size: 1.875rem;
+  line-height: 24px;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.main .extra-info .container .info .content-info .text-info p {
+  color: #979797;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.main .extra-info .container .photo {
+  width: 50%;
+  height: 300px;
+  box-shadow: 0 9px 32px -1px rgba(0, 0, 0, 0.2);
+  background-image: url('../img/info-foto.jpg');
+  background-position: center;
+  background-size: cover;
+}

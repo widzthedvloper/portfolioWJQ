@@ -351,4 +351,67 @@ body {
       }
     }
   }
+
+  // extra information
+
+  .extra-info {
+    background: #191919;
+    padding: 130px 0;
+
+    .container {
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+
+      .info {
+        width: 50%;
+
+        .content-info {
+          display: flex;
+          flex-flow: row nowrap;
+          justify-content: center;
+
+          &:first-child {
+            margin-bottom: 30px;
+          }
+
+          .icon-info {
+            width: 5%;
+
+            i {
+              font-size: 1.5rem;
+              color: #fff;
+            }
+          }
+
+          .text-info {
+            margin-left: 3%;
+
+            h4 {
+              font-size: 1.875rem;
+              line-height: 24px;
+              color: #fff;
+              font-weight: 500;
+              margin-bottom: 15px;
+            }
+
+            p {
+              color: #979797;
+              font-size: 1rem;
+              font-weight: 400;
+            }
+          }
+        }
+      }
+
+      .photo {
+        width: 50%;
+        height: 300px;
+        box-shadow: 0 9px  32px -1px rgba(0, 0, 0, 0.2);
+        background-image: url('../img/info-foto.jpg');
+        background-position: center;
+        background-size: cover;
+      }
+    }
+  }
 }
