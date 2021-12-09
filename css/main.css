@@ -348,3 +348,90 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+.main .contact .container .form-container {
+  background: #fff;
+  min-height: 485px;
+  border-radius: 3px;
+  box-shadow: 0 9px 32px -1px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: space-between;
+}
+.main .contact .container .form-container .form {
+  width: 50%;
+  padding: 70px;
+}
+.main .contact .container .form-container .form h2 {
+  font-size: 1.375rem;
+  line-height: 24px;
+  color: #0089e0;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.main .contact .container .form-container .form p {
+  color: #979797;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.main .contact .container .form-container .form form input[type='text'] {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+  outline: none;
+  width: 100%;
+  margin: 10px;
+  color: #979797;
+  font-size: 0.9rem;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+.main .contact .container .form-container .form form input[type='email'] {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+  outline: none;
+  width: 100%;
+  margin: 10px;
+  color: #979797;
+  font-size: 0.9rem;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+.main .contact .container .form-container .form form textarea {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+  outline: none;
+  min-width: 100%;
+  max-width: 100%;
+  max-height: 88px;
+  min-height: 88px;
+  margin-bottom: 10px;
+  color: #979797;
+  font-size: 0.9rem;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0;
+}
+.main .contact .container .form-container .form form input[type='submit'] {
+  width: 100%;
+  border: none;
+  border: 1px solid #0089e0;
+  padding: 8px;
+  background: #0089e0;
+  color: #fff;
+  font-size: 0.9rem;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  transition: all 0.7s ease;
+}
+.main .contact .container .form-container .form form input[type='submit']:hover {
+  background: #fff;
+  color: #0089e0;
+}
+.main .contact .container .form-container .photo {
+  width: 50%;
+  background-image: url('../img/foto-contacto.jpg');
+  background-size: cover;
+}
