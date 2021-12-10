@@ -435,3 +435,28 @@ body {
   background-image: url('../img/foto-contacto.jpg');
   background-size: cover;
 }
+footer {
+  background: #f3f4fa;
+  padding: 54px 0;
+  text-align: center;
+}
+footer .copy {
+  color: #979797;
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+footer .social-media a {
+  display: inline-block;
+  padding: 0 10px;
+  color: #979797;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.875rem;
+  letter-spacing: 0;
+  line-height: 1.5em;
+  transition: all 0.3s ease;
+}
+footer .social-media a:hover {
+  color: #0089e0;
+}
