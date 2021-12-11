@@ -1,5 +1,8 @@
 // Note: Remenber to use variables for repeating measurements and properties
 
+// variables
+@tablet: ~"only screen and (max-width: 1040px)";
+
 @font-face {
   font-family: 'Poppins';
   src: url('/fonts/Poppins-SemiBold.ttf');
@@ -554,6 +557,34 @@ footer {
 
     &:hover {
       color: #0089e0;
+    }
+  }
+}
+
+// Media queries
+
+@media @tablet {
+  .main .our-team {
+    .title {
+      margin-bottom: 60px;
+    }
+
+    .team {
+      .team-member {
+        max-width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: left;
+
+        &:first-child {
+          top: -20px;
+        }
+
+        .photo-card {
+          margin-right: 20px;
+        }
+      }
     }
   }
 }
