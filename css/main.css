@@ -477,4 +477,88 @@ footer .social-media a:hover {
   .main .our-team .team .team-member .photo-card {
     margin-right: 20px;
   }
+  .main .extra-info .container .info {
+    width: 100%;
+  }
+  .main .extra-info .container .photo {
+    display: none;
+  }
+}
+@media only screen and (max-width: 900px) {
+  header .menu-bar-pc {
+    display: none;
+  }
+  header .menu-mobile {
+    display: block;
+    width: 100%;
+    padding: 5px 18px;
+    background: #fff;
+    color: #444;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+  }
+  header .menu-mobile .menu-principal {
+    width: 80%;
+    display: block;
+    position: fixed;
+    top: 56px;
+    left: -100%;
+    border-bottom: 1px solid rgba(204, 204, 204, 0.5);
+    border-right: 1px solid rgba(204, 204, 204, 0.5);
+    box-shadow: 0 1px 5px -1px rgba(0, 0, 0, 0.2);
+    background: #fff;
+    text-align: center;
+  }
+  header .menu-mobile .menu-principal a {
+    display: block;
+    padding: 10px;
+    color: #444;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.876rem;
+    letter-spacing: 0;
+    line-height: 1.5em;
+    border-bottom: 1px solid rgba(204, 204, 204, 0.5);
+    transition: all 0.3s ease;
+  }
+  header .menu-mobile .menu-principal a:hover {
+    color: #0089e0;
+  }
+  header .menu-mobile .bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header .menu-mobile .bar .logo {
+    width: 40px;
+  }
+  header .menu-mobile .bar a i {
+    font-size: 1.4rem;
+    color: #444;
+  }
+  header .fixed-header {
+    display: none;
+  }
+  .main {
+    margin-top: 0;
+  }
+  .main .about .container .title,
+  .main .about .container .about-text {
+    width: 100%;
+    text-align: center;
+  }
+  .main .contact .container .form-container .form {
+    width: 100%;
+    text-align: center;
+  }
+  .main .contact .container .form-container .form input[type="text"],
+  .main .contact .container .form-container .form input[type="email"],
+  .main .contact .container .form-container .form textarea {
+    text-align: center;
+  }
+  .main .contact .container .form-container .photo {
+    display: none;
+  }
 }
