@@ -562,3 +562,39 @@ footer .social-media a:hover {
     display: none;
   }
 }
+@media only screen and (max-width: 550px) {
+  .main .main-banner .banner-text h3 {
+    font-size: 4rem;
+  }
+  .main .title h2 {
+    font-size: 2.125rem;
+  }
+  .main .projects .gallery .project {
+    width: 49%;
+  }
+  .main .our-team .team .team-member {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .main .extra-info .container .info .content-info {
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  .main .extra-info .container .info .content-info .icon-info {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  .main .extra-info .container .info .content-info .icon-info i {
+    font-size: 3.5rem;
+  }
+  .main .extra-info .container .info .content-info .text-info {
+    margin-left: 0;
+  }
+  .main .extra-info .container .info .content-info .text-info h4 {
+    font-size: 1.175rem;
+  }
+  .main .extra-info .container .info .content-info:first-child {
+    margin-bottom: 40px;
+  }
+}
