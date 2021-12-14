@@ -13,7 +13,7 @@ This is a portfolio created using jquery, html and css. In this project i code a
 
 ## Live Version
 
-[coffee Shop live]()
+[Portfolio Live]()
 ## Pages
 
 ![](img/desktopView.png)
