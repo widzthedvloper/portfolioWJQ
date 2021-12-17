@@ -1,6 +1,6 @@
 # portfolioWJQ
 
-This is a portfolio created using jquery, html and css. In this project i code along with Sergio Agamez's course (Marquetacion de citios web con javascript y jquery) for practice and learning purposes.
+This is a portfolio created using jquery, HTML, and CSS. In this project, I code along with Sergio Agamez's course (Marquetacion de sitios web con javascript y jquery) for practice and learning purposes.
 
 <p align="center">
    <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white">
