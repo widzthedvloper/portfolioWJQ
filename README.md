@@ -12,7 +12,7 @@ This is a portfolio created using jquery, HTML, and CSS. In this project, I code
 
 ## Live Version
 
-[Portfolio Live](https://widzthedvloper.github.io/portfolioWJQ/)
+[Live version](https://widzthedvloper.github.io/portfolioWJQ/)
 ## Pages
 
 ![](img/desktopView.png)
