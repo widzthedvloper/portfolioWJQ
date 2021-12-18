@@ -1,6 +1,6 @@
 # portfolioWJQ
 
-This is a portfolio created using jquery, HTML, and CSS.
+This is a portfolio created using jQuery, HTML, and CSS.
 <p align="center">
    <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white">
    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">
