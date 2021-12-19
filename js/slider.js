@@ -7,20 +7,24 @@ $(document).ready(() => {
   $(slider).css('margin-left', '-25%');
 
   const moveRight = () => {
-    slider.animate({
-      marginLeft: '-75%',
-    }, 700, () => {
-      $('#slider .slide:first').insertAfter('#slider .slide:last');
-      slider.css('margin-left', '-25%');
-    });
+    if (!slider.is(':animated')) {
+      slider.animate({
+        marginLeft: '-75%',
+      }, 700, () => {
+        $('#slider .slide:first').insertAfter('#slider .slide:last');
+        slider.css('margin-left', '-25%');
+      });
+    }
   };
 
   const moveLeft = () => {
-    $('#slider .slide:last').insertBefore('#slider .slide:first');
-    slider.css('margin-left', '-75%');
-    slider.animate({
-      marginLeft: '-25%',
-    }, 700);
+    if (!slider.is(':animated')) {
+      $('#slider .slide:last').insertBefore('#slider .slide:first');
+      slider.css('margin-left', '-75%');
+      slider.animate({
+        marginLeft: '-25%',
+      }, 700);
+    }
   };
 
   btnNext.on('click', moveRight);
