@@ -13,6 +13,7 @@ $(document).ready(() => {
       }, 700, () => {
         $('#slider .slide:first').insertAfter('#slider .slide:last');
         slider.css('margin-left', '-25%');
+        resetInterval();
       });
     }
   };
@@ -23,10 +24,19 @@ $(document).ready(() => {
       slider.css('margin-left', '-75%');
       slider.animate({
         marginLeft: '-25%',
-      }, 700);
+      }, 700, () => {
+        resetInterval();
+      });
     }
   };
 
   btnNext.on('click', moveRight);
   btnPrev.on('click', moveLeft);
+
+  let interval = setInterval(moveRight, 5000);
+
+  const resetInterval = () => {
+    clearInterval(interval);
+    interval = setInterval(moveRight, 5000);
+  };
 });
