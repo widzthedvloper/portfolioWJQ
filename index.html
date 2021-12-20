@@ -90,7 +90,7 @@
             <div class="banner-text">
                 <h2>Innovation and Passion</h2>
                 <h3>Design Studio</h3>
-                <a href="#" class="smooth-scroll">SEE PROJECTS</a>
+                <a href="#projects" class="smooth-scroll">SEE PROJECTS</a>
             </div>
         </section>
 
@@ -262,18 +262,21 @@
                     <div class="form">
                         <h2>Tell us about your project</h2>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis</p>
-                        <form>
+                        <form id="form">
                             <div>
-                                <input type="text" name="name" placeholder="Name">
+                                <input type="text" name="name" placeholder="Name" id="name">
+                                <p class="error">Please write your name</p>
                             </div>
                             <div>
-                                <input type="email" name="email" placeholder="Email">
+                                <input type="email" name="email" placeholder="Email" id="email">
+                                <p class="error">Please write your email</p>
                             </div>
                             <div>
-                                <textarea name="message" placeholder="Tell us more about your project"></textarea>
+                                <textarea name="message" placeholder="Tell us more about your project" id="message"></textarea>
+                                <p class="error">Please write your email</p>
                             </div>
                             <div>
-                                <input type="submit" value="Submit">
+                                <input type="submit" value="Submit" id="submit">
                             </div>
                         </form>
                     </div>
@@ -309,6 +312,7 @@
     <script src="js/modal.js"></script>
     <script src="js/slider.js"></script>
     <!-- <script src="js/bgParallax.js"></script> -->
+    <script src="js/formValidation.js"></script>
     <script src="js/parallax.min.js"></script>
     <script src="js/prefixfree.min.js"></script>
 </body>
