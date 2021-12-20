@@ -399,10 +399,6 @@ body {
 }
 .main .contact {
   padding: 190px 0;
-  background-image: url('../img/bg-contacto.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 .main .contact .container .form-container {
   background: #fff;
