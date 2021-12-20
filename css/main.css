@@ -399,10 +399,6 @@ body {
 }
 .main .contact {
   padding: 190px 0;
-  background-image: url('../img/bg-contacto.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 .main .contact .container .form-container {
   background: #fff;
@@ -428,6 +424,13 @@ body {
   font-size: 1rem;
   font-weight: 400;
   margin-bottom: 30px;
+}
+.main .contact .container .form-container .form .error {
+  display: none;
+  color: #ff8c8c;
+  font-size: 12px;
+  margin-top: -10px;
+  margin-bottom: 10px;
 }
 .main .contact .container .form-container .form form input[type='text'] {
   border: none;
