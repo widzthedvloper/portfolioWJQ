@@ -12,6 +12,7 @@ This is a portfolio created using jQuery, HTML, and CSS.
 ## Live Version
 
 [Live version](https://widzthedvloper.github.io/portfolioWJQ/)
+
 ## Pages
 
 ![](img/desktopView.png)
